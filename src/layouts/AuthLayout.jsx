@@ -1,5 +1,4 @@
 import { Outlet } from "react-router-dom";
-import Logo from '../assets/logo.png'
 const AuthLayout = () => {
   return (
     <div className="max-w-full min-h-screen flex justify-center items-center m-3">
@@ -7,7 +6,7 @@ const AuthLayout = () => {
 
         {/* logo */}
         <div>
-          <img src={Logo} alt="logo" className="w-48 h-16 object-contain mx-auto" width={192} height={64} loading="lazy"  type="image/webp"/>
+          <img src='./assets/logo.png' alt="logo" className="w-48 h-16 object-contain mx-auto" width={192} height={64} loading="lazy"  type="image/webp"/>
         </div>
 
         {/* form */}

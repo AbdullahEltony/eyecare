@@ -15,7 +15,6 @@ import { Link, useParams } from 'react-router-dom';
 import { IoArrowBackOutline } from 'react-icons/io5';
 import { InvoiceProductsTable } from '../../components/ui/tables';
 import SenderReceverComp from '../../views/SenderReceverComp';
-import Logo from '../../assets/logo.png';
 
 function EditInvoice() {
   const { id } = useParams();
@@ -70,7 +69,7 @@ function EditInvoice() {
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-2 items-center">
           <div className="lg:col-span-3">
             <img
-              src={Logo}
+              src='./assets/logo.png'
               alt="logo"
               className="h-12 object-contain"
             />

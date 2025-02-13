@@ -12,7 +12,7 @@ import InvoiceUsed from '../../components/common/InvoiceUsed';
 import Access from '../../components/common/Access';
 import { MdOutlineMarkChatUnread } from 'react-icons/md';
 import ReviewsUsed from '../../components/common/ReviewsUsed';
-import ProfileImg from '../../assets/profile-img.png';
+import ProfileImg from '../../../public/assets/profile-img.png';
 function DoctorProfile() {
   const [activeTab, setActiveTab] = React.useState(1);
   const [access, setAccess] = React.useState({});

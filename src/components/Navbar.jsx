@@ -5,7 +5,6 @@ import { AiOutlinePoweroff } from 'react-icons/ai';
 import { MdOutlineNotificationsNone } from 'react-icons/md';
 import NotificationComp from '../components/NotificationComp';
 import { useNavigate } from 'react-router-dom';
-import ProfileImg from '../assets/profile-img.png';
 import { BsList } from "react-icons/bs";
 import {logout} from '../store/slices/auth'
 import { useDispatch } from "react-redux";
@@ -59,7 +58,7 @@ const Navbar = ({ setIsOpen }) => {
             <MenuSelect datas={DropDown1}>
               <div className="flex gap-4 items-center p-4 rounded-lg">
                 <img
-                  src={ProfileImg}
+                  src='./assets/profile-img.png'
                   alt="user"
                   className="w-12 border border-border object-cover h-12 rounded-full"
                 />

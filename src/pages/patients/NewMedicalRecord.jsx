@@ -2,7 +2,6 @@ import { useState } from 'react';
 import { IoArrowBackOutline } from 'react-icons/io5';
 import { Button, Checkbox, Select, Textarea } from '../../components/Form';
 import { BiChevronDown, BiPlus } from 'react-icons/bi';
-import ProfileImg from '../../assets/profile-img.png';
 import {
   medicineData,
   memberData,
@@ -80,7 +79,7 @@ function NewMedicalRecode() {
           className="col-span-12 flex-colo gap-6 lg:col-span-4 bg-white rounded-xl border-[1px] border-border p-6 lg:sticky top-28"
         >
           <img
-            src={ProfileImg}
+            src='./assets/profile-img.png'
             alt="setting"
             className="w-40 h-40 rounded-full object-cover border border-dashed border-subMain"
           />

@@ -10,7 +10,6 @@ import { AiOutlinePrinter } from 'react-icons/ai';
 import { FiEdit } from 'react-icons/fi';
 import { InvoiceProductsTable } from '../../components/ui/tables';
 import SenderReceverComp from '../../views/SenderReceverComp';
-import Logo from '../../assets/logo.png';
 function PreviewPayment() {
   const id = 1;
   const [isShareOpen, setIsShareOpen] = useState(false);
@@ -80,7 +79,7 @@ function PreviewPayment() {
         <div className="grid lg:grid-cols-4 sm:grid-cols-2 grid-cols-1 gap-2 items-center">
           <div className="lg:col-span-3 flex items-center gap-4">
             <img
-              src={Logo}
+              src='./assets/logo.png'
               alt="logo"
               className="h-12 object-contain"
             />
