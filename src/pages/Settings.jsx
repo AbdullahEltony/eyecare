@@ -3,9 +3,9 @@ import { BiUserPlus } from 'react-icons/bi';
 import { RiLockPasswordLine } from 'react-icons/ri';
 import PersonalInfo from '../components/common/PersonalInfo';
 import ChangePassword from '../components/common/ChangePassword';
-
+const profileImg = '../../public/assets/profile-img.png';
 function Settings() {
-  const [img, setImg] = useState('./src/assets/profile-img.png')
+  const [img, setImg] = useState(profileImg)
   const [activeTab, setActiveTab] = React.useState(1);
   const tabs = [
     {

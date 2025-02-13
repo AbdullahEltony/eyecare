@@ -6,7 +6,7 @@ const AuthLayout = () => {
 
         {/* logo */}
         <div>
-          <img src='./assets/logo.png' alt="logo" className="w-48 h-16 object-contain mx-auto" width={192} height={64} loading="lazy"  type="image/webp"/>
+          <img src='../../public/assets/logo.png' alt="logo" className="w-48 h-16 object-contain mx-auto" width={192} height={64} loading="lazy"  type="image/webp"/>
         </div>
 
         {/* form */}
