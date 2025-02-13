@@ -10,7 +10,7 @@ import PersonalInfo from '../../components/common/PersonalInfo';
 import PatientImages from '../../views/patient/PatientImages';
 import HealthInformation from '../../views/patient/HealthInformation';
 import DentalChart from '../../views/patient/DentalChart';
-import ProfileImage from '../../../public/assets/profile-img.png';
+import ProfileImage from '/assets/profile-img.png';
 function PreviewPatient() {
   const [activeTab, setActiveTab] = React.useState(1);
 
