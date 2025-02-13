@@ -6,7 +6,7 @@ import { FiUploadCloud } from 'react-icons/fi';
 
 const Uploader = ({ setImg }) => {
   const [loading, setLoading] = useState(false);
-  const [previewImg, setPreviewImg] = useState('http://placehold.it/300x300');
+  const [previewImg, setPreviewImg] = useState('https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Placeholder_view_vector.svg/310px-Placeholder_view_vector.svg.png');
   // upload file
   const onDrop = useCallback(async (acceptedFiles) => {
     if (acceptedFiles.length > 0) {

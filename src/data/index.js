@@ -27,7 +27,7 @@ export const memberData = [
   {
     id: 1,
     title: "Hugo Lloris",
-    image: "../assets/user2.png",
+    image: "./assets/user2.png",
     admin: false,
     email: "hugolloris@gmail.com",
     phone: "+1 234 567 890",
@@ -40,7 +40,7 @@ export const memberData = [
   {
     id: 2,
     title: "Mauris auctor",
-    image: "../assets/user4.png",
+    image: "./assets/user4.png",
     admin: false,
     email: "maurisauctor@gmail.com",
     phone: "+1 456 789 123",
@@ -53,7 +53,7 @@ export const memberData = [
   {
     id: 3,
     title: "Michael Owen",
-    image: "../assets/user5.png",
+    image: "./assets/user5.png",
     admin: false,
     phone: "+1 890 123 456",
     email: "michaelowen@gmail.com",
@@ -66,7 +66,7 @@ export const memberData = [
   {
     id: 4,
     title: "Amina Smith",
-    image: "../assets/user4.png",
+    image: "./assets/user4.png",
     admin: true,
     phone: "+1 908 765 432",
     email: "aminasmith@gmail.com",
@@ -79,7 +79,7 @@ export const memberData = [
   {
     id: 5,
     title: "Minahil Khan",
-    image: "../assets/user2.png",
+    image: "./assets/user2.png",
     admin: false,
     phone: "+1 890 123 456",
     email: "minahilkhan@gmail.com",
@@ -92,7 +92,7 @@ export const memberData = [
   {
     id: 6,
     title: "Alex Morgan",
-    image: "../assets/user5.png",
+    image: "./assets/user5.png",
     admin: false,
     phone: "+1 908 765 432",
     email: "alexmorgan@gmail.com",
@@ -105,7 +105,7 @@ export const memberData = [
   {
     id: 7,
     title: "John Doe",
-    image: "../assets/user2.png",
+    image: "./assets/user2.png",
     admin: false,
     phone: "+1 234 567 890",
     email: "johndoe@gmail.com",
@@ -118,7 +118,7 @@ export const memberData = [
   {
     id: 8,
     title: "David Beckham",
-    image: "../assets/user4.png",
+    image: "./assets/user4.png",
     admin: false,
     phone: "+1 456 789 123",
     email: "davidbackham@gmail.com",
