@@ -3,7 +3,7 @@ const Banner = () => {
     return (
         <div className=" bg-white rounded-xl border-[1px] border-border relative">
             <img
-                src="./src/assets/banner.avif"
+                src="./banner.avif"
                 className="w-full h-72 object-cover rounded"
                 alt="banner"
             />
