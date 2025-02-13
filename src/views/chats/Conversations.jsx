@@ -65,7 +65,7 @@ function Coversation() {
                 <img
                   className="rounded-full border object-cover w-10 h-10"
                   alt="user"
-                  src="./src/assets/user5.png"
+                  src="/assets/user5.png"
                 />
                 <span className="w-[10px] h-[10px] border border-white bg-subMain rounded-full absolute top-0 right-0"></span>
               </Link>
